@@ -26,7 +26,7 @@ Base &Base::operator=(const Base &other)
     return *this;
 }
 
-Base::Base(AbstractTrack &&other) noexcept : VIN(std::move(other.VIN)), fuel(std::move(other.fuel)), bodywork(std::move(other.bodywork)), traction(std::move(other.traction)), power(std::move(other.power)), equipment(std::move(other.equipment))
+Base::Base(Base &&other) noexcept : VIN(std::move(other.VIN)), fuel(std::move(other.fuel)), bodywork(std::move(other.bodywork)), traction(std::move(other.traction)), power(std::move(other.power)), equipment(std::move(other.equipment))
 {
     std::cout << "Base move constructor called" << std::endl;
 }

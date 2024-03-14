@@ -1,7 +1,7 @@
 #include "Car.h"
 #include <iostream>
 
-Car::Car() {
+Car::Car(){
     std::cout << "Car constructor called" << std::endl;
 }
 

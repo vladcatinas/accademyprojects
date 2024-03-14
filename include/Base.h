@@ -1,6 +1,14 @@
-#include <string.h>
+#include <string>
 
 class Base{
+
+    protected:
+        std::string VIN;
+        std::string fuel;
+        std::string bodywork;
+        std::string traction;
+        std::string power;
+        std::string equipment;
 
     public:
         Base();
@@ -11,14 +19,4 @@ class Base{
 
         virtual ~Base();
         virtual void printInfo() const = 0;
-
-  
-    protected:
-        std::string VIN;
-        std::string fuel;
-        std::string bodywork;
-        std::string traction;
-        std::string power;
-        std::string equipment;
-
-}
+};
