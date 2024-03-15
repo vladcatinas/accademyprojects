@@ -1,8 +1,12 @@
 #pragma once
-#include "Base.h"
+#include "Automobile.h"
 
-class Car : public Base {
-public:
-    Car();
-    void printInfo() const override;
+class Car : public Automobile {
+    public:
+
+        Car();
+        
+        ~Car();
+
+        void Dashboard();
 };

@@ -1,16 +1,21 @@
 #include "Car.h"
 #include <iostream>
-
-Car::Car(){
-    std::cout << "Car constructor called" << std::endl;
+Car::Car()
+{
+    std::cout<< "Car constructor called" <<std::endl;
 }
 
-void Car::printInfo() const {
-    std::cout << "Car Information:" << std::endl;
-    std::cout << "VIN: " << VIN << std::endl;
-    std::cout << "Fuel: " << fuel << std::endl;
-    std::cout << "Bodywork: " << bodywork << std::endl;
-    std::cout << "Traction: " << traction << std::endl;
-    std::cout << "Power: " << power << std::endl;
-    std::cout << "Equipment: " << equipment << std::endl;
+Car::~Car()
+{
+    std::cout<< "Car destructor called" <<std::endl;
+}
+
+void Car::Dashboard()
+{
+    std::cout << "VIN number:" << VIN << std::endl;
+    std::cout << "Fuel type:" << fuel << std::endl;
+    std::cout << "Body type:" << body << std::endl;
+    std::cout << "Traction type:" << traction << std::endl;
+    std::cout << "Power:" << power << std::endl;
+    std::cout << "Extras:" << extras << std::endl<<std::endl;  
 }

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/accademyprojects.dir/src/Automobile.cpp.o CMakeFiles/accademyprojects.dir/src/Car.cpp.o CMakeFiles/accademyprojects.dir/src/Moto.cpp.o CMakeFiles/accademyprojects.dir/src/Utility.cpp.o CMakeFiles/accademyprojects.dir/src/main.cpp.o  -o accademyprojects 
