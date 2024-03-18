@@ -1,6 +1,7 @@
 #include <iostream>
 
-class Utility{
+class Utility { 
 
-   
+public:
+   static void print(const std::string&message);
 };

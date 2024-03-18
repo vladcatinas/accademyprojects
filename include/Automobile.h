@@ -6,20 +6,19 @@
 class Automobile{
 
     protected:
-        std::string VIN{0};
-        std::string fuel{0};
-        std::string body{0};
-        std::string traction{0};
-        std::string power{0};
-        std::string extras{0};
+        std::string* ptrVIN;
+        std::string  fuel;
+        std::string  body;
+        std::string  traction;
+        std::string  power;
+        std::string  extras;
 
     public:
 
         /* Default constructor */
         Automobile();
-
+        Automobile(const std::string& ptrVIN, const std::string& fuel, const std::string& body, const std::string& traction, const std::string& power, const std::string& extras);
         ~Automobile();
-
-        void Dashboard();
+        void Dashboard() const;
 };
 #endif 

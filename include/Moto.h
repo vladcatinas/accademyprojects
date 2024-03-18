@@ -12,7 +12,6 @@ class Moto : public Automobile {
         Moto();
         
         ~Moto();
-
     
         void Dashboard();
         

@@ -16,7 +16,7 @@ Moto::~Moto()
 
 void Moto::Dashboard()
 {
-    std::cout << "VIN number:" << VIN << std::endl;
+    std::cout << "VIN number:" << ptrVIN << std::endl;
     std::cout << "Fuel type:" << fuel << std::endl;
     std::cout << "Body type:" << body << std::endl;
     std::cout << "Traction type:" << traction << std::endl;
