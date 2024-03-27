@@ -1,3 +1,0 @@
-/home/projectx/accademyprojects/build/CMakeFiles/rebuild_cache.dir
-/home/projectx/accademyprojects/build/CMakeFiles/edit_cache.dir
-/home/projectx/accademyprojects/build/CMakeFiles/accademyprojects.dir
